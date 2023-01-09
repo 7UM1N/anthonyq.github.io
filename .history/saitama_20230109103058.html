@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        <title>Anthony Qiu</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    </head>
+    <body>
+
+        <!-- header -->
+        <section class="sub-header sub-header-saitama">
+            <nav>
+                <a class="logo" href="index.html">
+                    <strong>ANTHONY</strong> QIU
+                </a>
+                <div class="nav-links" id="navLinks">
+                    <ul>
+                        <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+                        <li><a href="index.html" >HOME</a></li>
+                        <li><a href="index.html#projects">PROJECTS</a></li>
+                        <li><a href="contact.html">CONTACT</a></li>
+                    </ul>
+                </div>
+                <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+            </nav>
+            <div class="text-box">
+                <h1>Saitama</h1>
+                <p>
+                    a discord bot
+                </p>
+            </div>
+            <div class="scroll">
+                <p>S C R O L L<br><i class="fa-solid fa-sort-down"></i></p>
+            </div>
+        </section>
+
+        <!-- content -->
+        <section class="portfolio-item-section">
+            <h2>
+                What is Saitama?
+            </h2>
+            <img src="img/saitama/saitama-card.png"
+            <p>
+                In short Saitama is a general-purpose discord bot. But what is a discord bot? It is server hosted application which is able to interact with a chat service called discord. Specifically, Saitama is able respond to certain messages keep track of interesting user statistics, execute commands such as ban, and once upon a time, Saitama was even able to play music. However, since discord kept updating their API, this function no longer works.
+How was Saitama made?
+Since discord API was only available for python and JavaScript, I could only choose between those 2 languages. In the end, I decided to use python because I already had some prior knowledge of the language and it was easier to work with.	
+
+            </p>
+        </section>
+
+        <!-- footer -->
+        <footer class="footer">
+            <a href="mailto:anthony.bo.qiu@gmail.com" class="email">anthony.bo.qiu@gmail.com</a>
+            <ul class="socials">
+                <li class="socials-item">
+                    <a class="social-item-link" href="https://www.linkedin.com/in/anthonyboqiu">
+                        <i class="fa-brands fa-linkedin"></i>
+                    </a>
+                </li>
+                <li class="socials-item">
+                    <a class="social-item-link" href="https://www.instagram.com/anthony.bo.qiu/">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                </li>
+            </ul>
+            <P class="love">made with <i class="fa-regular fa-heart"></i> by Anthony</p>
+        </footer>
+
+        <!-- javascript-->
+        <script src="js/index.js"></script>
+    </body>
+</html>
