@@ -401,7 +401,7 @@ nav .fa-solid {
 
 .contact {
     padding: 50px;
-    width: 500px;
+    width: 40%;
     margin: auto;
     text-align: center;
 }
@@ -453,5 +453,9 @@ nav .fa-solid {
 
     .portfolio-item-section {
         width: 90%;
+    }
+
+    .contact {
+        width: 70%;
     }
 }
