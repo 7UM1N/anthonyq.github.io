@@ -3,15 +3,15 @@
     --ff-primary: 'Raleway', sans-serif;
     --ff-secondary: 'Raleway', sans-serif;
 
-    --fw-reg: 300;
-    --fw-bold: 800;
+    --fw-reg: 500;
+    --fw-bold: 850;
 
     --clr-light: #fff;
     --clr-dark: #000000;
     --clr-accent: #e281ff;
 
     --fs-h1: 3rem;
-    --fs-h2: 2.25rem;
+    --fs-h2: 2rem;
     --fs-h3: 1.25rem;
     --fs-h4: 1.05rem;
     --fs-body: 0.9rem;
@@ -32,15 +32,18 @@ h3 {
     line-height: 1.1;
 }
 
+h1, h2, h3, h4 {
+    font-weight: var(--fw-bold);
+}
+
 h1 {font-size: var(--fs-h1)}
 h2 {font-size: var(--fs-h2)}
 h3 {
     font-size: var(--fs-h3);
-    font-weight: var(--fw-bold);
+    font-weight: 800;
 }
 h4 {
     font-size: var(--fs-h4);
-    font-weight: var(--fw-bold);
 }
 
 p {
@@ -80,7 +83,7 @@ header {
 
 header img {
     max-width: 20vh;
-    border-radius: 3%;
+    border-radius: 7%;
 }
 
 nav {
@@ -152,7 +155,8 @@ nav {
     font-size: var(--fs-body);
     background: transparent;
     position: relative;
-    cursor: pointer
+    cursor: pointer;
+    margin-top: 20px;;
 }
 
 .hero-btn:hover {
@@ -187,7 +191,7 @@ nav .fa-solid {
 /*projects*/
 
 .projects {
-    width: 60%;
+    width: 80%;
     margin: auto;
     text-align: center;
     padding-top: 100px;
@@ -236,10 +240,10 @@ nav .fa-solid {
 
 .portfolio-item h3 {
     color: var(--clr-light);
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
     border-style: solid;
-    border-width: 0.25rem;
+    border-width: 0.3rem;
     border-color: var(--clr-light);
     border-radius: 50%;
 
@@ -262,15 +266,23 @@ nav .fa-solid {
 }
 
 .nerfv2 {
-    background-image: linear-gradient(rgba(4, 9, 30, 0.5), rgba(4, 9, 30, 0.5)), url(../img/blueprint.jpeg);
+    background-image: linear-gradient(rgba(4, 9, 30, 0.5), rgba(4, 9, 30, 0.5)), url(../img/coming-soon.webp);
 }
 
 .launcho {
     background-image: linear-gradient(rgba(4, 9, 30, 0.5), rgba(4, 9, 30, 0.5)), url(../img/launcho/launcho-card.jpg);
 }
 
+.codebreaker {
+    background-image: linear-gradient(rgba(4, 9, 30, 0.5), rgba(4, 9, 30, 0.5)), url(../img/codebreaker/codebreaker-card.jpg);
+}
+
 .saitama {
     background-image: linear-gradient(rgba(4, 9, 30, 0.5), rgba(4, 9, 30, 0.5)), url(../img/saitama/saitama-banner.webp);
+}
+
+.this-website {
+    background-image: linear-gradient(rgba(4, 9, 30, 0.5), rgba(4, 9, 30, 0.5)), url(../img/this-website/this-website-card.jpeg);
 }
 
 .portfolio-item h3 {

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        <title>Anthony Qiu</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    </head>
+    <body>
+
+        <!-- header -->
+        <section class="sub-header sub-header-launcho">
+            <nav>
+                <a class="logo" href="index.html">
+                    <strong>ANTHONY</strong> QIU
+                </a>
+                <div class="nav-links" id="navLinks">
+                    <ul>
+                        <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+                        <li><a href="index.html" >HOME</a></li>
+                        <li><a href="index.html#projects">PROJECTS</a></li>
+                        <li><a href="contact.html">CONTACT</a></li>
+                    </ul>
+                </div>
+                <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+            </nav>
+            <div class="text-box">
+                <h1>Launcho</h1>
+                <p>
+                    spring powered toy rocket
+                </p>
+            </div>
+            <div class="scroll">
+                <p>S C R O L L<br><i class="fa-solid fa-sort-down"></i></p>
+            </div>
+        </section>
+
+        <!-- content -->
+        <section class="portfolio-item-section">
+            <h2>What is Launcho?</h2>
+            <p>
+                Launcho is an innovative toy, created by a team of 5 people including me. It is a spring powered rocket launcher that can fire on command while being able to adjust its angle of fire in all 3 dimensions.
+            </p>
+            <h2>How it was made</h2>
+            <h3>“Looks Like” Model</h3>
+            <img src="img/launcho/launcho-figure1.png">
+            <p>
+                I was in charge of creating a visual representation of the product. The objective of this was to get a more concrete idea of our end goal. The model was created in Solidworks with each individual component being modeled then added to the assembly. After this model was created, we then went off to brainstorm materials and exact dimensions each individual part.
+            </p>
+            <h3>Exact Model</h3>
+            <img src="img/launcho/launcho-solidworks.png">
+            <p>
+                Knowing all the dimensions I teamed up with another group member to create the final model which was then used to 3D print several parts
+            </p>
+            <h3>“Machining</h3>
+            <img src="img/launcho/launcho-side">
+            <p>
+                Some parts had to be stronger than 3D printing allowed for. Thus, we opted for other materials such as steel and PEX. However, these had to be machined to the correct dimensions. Above is a picture of the machined PEX pipe.
+            </p>
+            <a href="Toy_Design_Report_-_Launcho.pdf" download class="hero-btn inverse-btn"><strong>download our full report</strong></a>
+        </section>
+
+        <!-- footer -->
+        <footer class="footer">
+            <a href="mailto:anthony.bo.qiu@gmail.com" class="email">anthony.bo.qiu@gmail.com</a>
+            <ul class="socials">
+                <li class="socials-item">
+                    <a class="social-item-link" href="https://www.linkedin.com/in/anthonyboqiu">
+                        <i class="fa-brands fa-linkedin"></i>
+                    </a>
+                </li>
+                <li class="socials-item">
+                    <a class="social-item-link" href="https://github.com/anthonyqiu">
+                        <i class="fa-brands fa-github"></i>
+                    </a>
+                </li>
+            </ul>
+            <P class="love">made with <i class="fa-regular fa-heart"></i> by Anthony</p>
+        </footer>
+
+        <!-- javascript-->
+        <script src="js/index.js"></script>
+    </body>
+</html>
