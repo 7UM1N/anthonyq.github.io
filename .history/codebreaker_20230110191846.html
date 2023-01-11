@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        <title>Anthony Qiu</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    </head>
+    <body>
+
+        <!-- header -->
+        <section class="sub-header sub-header-launcho">
+            <nav>
+                <a class="logo" href="index.html">
+                    <strong>ANTHONY</strong> QIU
+                </a>
+                <div class="nav-links" id="navLinks">
+                    <ul>
+                        <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+                        <li><a href="index.html" >HOME</a></li>
+                        <li><a href="index.html#projects">PROJECTS</a></li>
+                        <li><a href="contact.html">CONTACT</a></li>
+                    </ul>
+                </div>
+                <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+            </nav>
+            <div class="text-box">
+                <h1>Codebreaker</h1>
+                <p>
+                    spring powered toy rocket
+                </p>
+            </div>
+            <div class="scroll">
+                <p>S C R O L L<br><i class="fa-solid fa-sort-down"></i></p>
+            </div>
+        </section>
+
+        <!-- content -->
+        <section class="portfolio-item-section">
+            <h2>What?</h2>
+            <p>
+                This project has many functions. However, a few of them stand out more. To summarize, codebreaker is a software create revolving around the game called “mastermind” (see here). My software allows you to play a classic game of mastermind, it allows for 2 players to face each, it allows the user to create a code for 3 different levels of AI, and it also features a leaderboard.
+            </p>
+            <h2>How?</h2>
+            <p>
+                Player versus player was accomplished by having 2 different players play the game on one machine. They would take turns inputting their guesses.
+
+Easy mode AI simply guesses at random, hence “easy mode”. As you can guess, this AI will almost NEVER guess your code as it will not adjust its guess base on a previous guess. To put it in retrospect, this AI has 4 guesses each with a 1/256 chance of being correct.
+
+Medium difficulty AI works a little differently. This AI will base its guess off its last guess. The first guess will be random but every guess after that will have logic behind it. The logic is that, if there is a correct position and color, it will guess the exact same color for that slot again, and if there is a correct color only, it will keep the color and change the position. This way, it is a bit harder than the easy AI
+
+Hard difficulty AI is really hard. Actually, it is impossible to beat. This AI utilises an algorithm called Knuth’s algorithm. Essentially, it will compute the guess which eliminates the maximum number of possibilities from the number of possibilities that are left. This AI will ALWAYS break the code in under 5 tries.
+
+The leaderboard is just a simple text file updated with Java. It keeps track of best score (based on time and guesses) for classic mastermind.
+
+            </p>
+            <h2>Results</h2>
+            <p>
+                This project mainly helped me improve my proficiency with creating classes. However, I learned a lot about the Knuth’s algorithm. It was a pretty hard algorithm to grasp, and even harder to apply. Overall, I am happy with the outcome.
+            </p>
+            <a href="https://github.com/anthonyqiu/codebreaker" download class="hero-btn inverse-btn"><strong>see the source code</strong></a>
+        </section>
+
+        <!-- footer -->
+        <footer class="footer">
+            <a href="mailto:anthony.bo.qiu@gmail.com" class="email">anthony.bo.qiu@gmail.com</a>
+            <ul class="socials">
+                <li class="socials-item">
+                    <a class="social-item-link" href="https://www.linkedin.com/in/anthonyboqiu">
+                        <i class="fa-brands fa-linkedin"></i>
+                    </a>
+                </li>
+                <li class="socials-item">
+                    <a class="social-item-link" href="https://github.com/anthonyqiu">
+                        <i class="fa-brands fa-github"></i>
+                    </a>
+                </li>
+            </ul>
+            <P class="love">made with <i class="fa-regular fa-heart"></i> by Anthony</p>
+        </footer>
+
+        <!-- javascript-->
+        <script src="js/index.js"></script>
+    </body>
+</html>

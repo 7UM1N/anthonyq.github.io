@@ -374,7 +374,9 @@ nav .fa-solid {
 .sub-header-contact {background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(../img/blueprint.jpeg);}
 .sub-header-nerfv2 {background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(../img/blueprint.jpeg);}
 .sub-header-launcho {background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(../img/launcho/launcho-card.jpg);}
+.sub-header-codebreaker {background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(../img/codebreaker/codebreaker-banner.jpg);}
 .sub-header-saitama {background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(../img/saitama/saitama-banner.webp);}
+.sub-header-saitama {background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(../img/this-website/this-website-card.jpeg);}
 
 .sub-header .text-box {
     border-style: solid;
