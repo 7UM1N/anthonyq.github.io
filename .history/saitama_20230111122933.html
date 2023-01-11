@@ -14,7 +14,7 @@
     <body>
 
         <!-- header -->
-        <section class="sub-header sub-header-codebreaker">
+        <section class="sub-header sub-header-saitama">
             <nav>
                 <a class="logo" href="index.html">
                     <strong>ANTHONY</strong> QIU
@@ -30,9 +30,9 @@
                 <i class="fa-solid fa-bars" onclick="showMenu()"></i>
             </nav>
             <div class="text-box">
-                <h1>Codebreaker</h1>
+                <h1>Saitama</h1>
                 <p>
-                    the ultimate mastermind
+                    spring powered toy rocket
                 </p>
             </div>
             <div class="scroll">
@@ -42,32 +42,26 @@
 
         <!-- content -->
         <section class="portfolio-item-section">
-            <h2>What?</h2>
+            <h2>
+                What is Saitama?
+            </h2>
+            <img src="img/saitama/saitama-card.png">
             <p>
-                To summarize, codebreaker is a software create revolving around the game called “mastermind” (see here). My software allows you to play a classic game of mastermind, it allows for 2 players to face each, it allows the user to create a code for 3 different levels of AI, and it also features a leaderboard.
+                In short Saitama is a general-purpose discord bot. But what is a discord bot? It is server hosted application which is able to interact with a chat service called discord. Specifically, Saitama is able respond to certain messages keep track of interesting user statistics, execute commands such as ban, and once upon a time, Saitama was even able to play music. However, since discord kept updating their API, this function no longer works.
             </p>
-            <h2>How?</h2>
+            <h2>How was Saitama made?</h2>
+            <img src="img/saitama/saitama-editor.png">
             <p>
-                Player versus player was accomplished by having 2 different players play the game on one machine. They would take turns inputting their guesses.
+                Since discord API was only available for python and JavaScript, I could only choose between those 2 languages. In the end, I decided to use python because I already had some prior knowledge of the language and it was easier to work with.
+                <br><br>A virtual environment was created to store all necessary libraries for the project since I did not want to store them on my main machine. Some of these libraries include YouTube-dl for YouTube to mp3 capabilities, and obviously discord.py to connect to the discord servers.
+                <br><br>.json files were used to store important information that might need to be changed in the future. These files are useful because they are easily accessible and alterable with code or by hand.
+                <br><br>The overall structure of the project utilized several classes, each in charge of a different function. This way, the code did not get cluttered, and it was easy to navigate and read.
             </p>
-            <p>
-        Easy mode AI simply guesses at random, hence “easy mode”. As you can guess, this AI will almost NEVER guess your code as it will not adjust its guess base on a previous guess. To put it in retrospect, this AI has 4 guesses each with a 1/256 chance of being correct.
-
-<br><br>Medium difficulty AI works a little differently. This AI will base its guess off its last guess. The first guess will be random but every guess after that will have logic behind it. The logic is that, if there is a correct position and color, it will guess the exact same color for that slot again, and if there is a correct color only, it will keep the color and change the position. This way, it is a bit smarter than the easy AI
-
-<br><br>Hard difficulty AI is really hard. Actually, it is impossible to beat. This AI utilises an algorithm called Knuth’s algorithm. Essentially, it will compute the guess which eliminates the maximum number of possibilities from the number of possibilities that are left. This AI will ALWAYS break the code in under 5 tries.
-            </p>
-            <img src="img/codebreaker/codebreaker-levels.png">
-            <p>
-<br><br>The leaderboard is just a simple text file updated with Java. It keeps track of best score (based on time and guesses) for classic mastermind.
-
-            </p>
-            <img src="img/codebreaker/codebreaker-leaderboard.png">
             <h2>Results</h2>
             <p>
-                This project mainly helped me improve my proficiency workin with classes. However, I also, learned a lot about the Knuth’s algorithm. It was a pretty hard algorithm to grasp, and even harder to apply. Overall, I am happy with the outcome.
+                I learned a lot about virtual environment, discord API, and general python. Starting out this project, I had no clue what a virtual environment was, no clue how to build a discord bot, and barely had any python experience. Now I can say that I am confident I would be able utilise these tools again.
             </p>
-            <a href="https://github.com/anthonyqiu/codebreaker" download class="hero-btn inverse-btn"><strong>see the source code</strong></a>
+            <a href="https://github.com/anthonyqiu/saitama" download class="hero-btn inverse-btn"><strong>see the source code</strong></a>
         </section>
 
         <!-- footer -->

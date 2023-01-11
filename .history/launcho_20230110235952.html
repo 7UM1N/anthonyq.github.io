@@ -14,7 +14,7 @@
     <body>
 
         <!-- header -->
-        <section class="sub-header sub-header-codebreaker">
+        <section class="sub-header sub-header-launcho">
             <nav>
                 <a class="logo" href="index.html">
                     <strong>ANTHONY</strong> QIU
@@ -30,9 +30,9 @@
                 <i class="fa-solid fa-bars" onclick="showMenu()"></i>
             </nav>
             <div class="text-box">
-                <h1>Codebreaker</h1>
+                <h1>Launcho</h1>
                 <p>
-                    the ultimate mastermind
+                    spring powered toy rocket
                 </p>
             </div>
             <div class="scroll">
@@ -44,30 +44,26 @@
         <section class="portfolio-item-section">
             <h2>What?</h2>
             <p>
-                To summarize, codebreaker is a software create revolving around the game called “mastermind” (see here). My software allows you to play a classic game of mastermind, it allows for 2 players to face each, it allows the user to create a code for 3 different levels of AI, and it also features a leaderboard.
+                Launcho is an innovative toy, created by a team of 5 people including me. It is a spring powered rocket launcher that can fire on command while being able to adjust its angle of fire in all 3 dimensions.
             </p>
             <h2>How?</h2>
+            <img src="img/launcho/launcho-figure1.png">
             <p>
-                Player versus player was accomplished by having 2 different players play the game on one machine. They would take turns inputting their guesses.
+                A visual representation of the product was created. The objective of this was to get a more concrete idea of the end goal. This model was created in Solidworks with each individual component being modeled then added to the assembly.
             </p>
+            <img src="img/launcho/launcho-solidworks.png">
             <p>
-        Easy mode AI simply guesses at random, hence “easy mode”. As you can guess, this AI will almost NEVER guess your code as it will not adjust its guess base on a previous guess. To put it in retrospect, this AI has 4 guesses each with a 1/256 chance of being correct.
-
-<br><br>Medium difficulty AI works a little differently. This AI will base its guess off its last guess. The first guess will be random but every guess after that will have logic behind it. The logic is that, if there is a correct position and color, it will guess the exact same color for that slot again, and if there is a correct color only, it will keep the color and change the position. This way, it is a bit smarter than the easy AI
-
-<br><br>Hard difficulty AI is really hard. Actually, it is impossible to beat. This AI utilises an algorithm called Knuth’s algorithm. Essentially, it will compute the guess which eliminates the maximum number of possibilities from the number of possibilities that are left. This AI will ALWAYS break the code in under 5 tries.
+                A scaled model was also created using Solidworks. Each part had to be dimensioned in a way that does not interfere with other parts of the assembly. Eventually, this model was used to 3D print several parts
             </p>
-            <img src="img/codebreaker/codebreaker-levels.png">
+            <img src="img/launcho/launcho-side">
             <p>
-<br><br>The leaderboard is just a simple text file updated with Java. It keeps track of best score (based on time and guesses) for classic mastermind.
-
+                Some parts had to be stronger than 3D printing allowed for. Thus, other materials such as steel and PEX were used. However, these had to be machined to the correct dimensions. Above is a picture of the machined PEX pipe.
             </p>
-            <img src="img/codebreaker/codebreaker-leaderboard.png">
             <h2>Results</h2>
             <p>
-                This project mainly helped me improve my proficiency workin with classes. However, I also, learned a lot about the Knuth’s algorithm. It was a pretty hard algorithm to grasp, and even harder to apply. Overall, I am happy with the outcome.
+                Throughout this project, I picked up many useful skills. First, I improved tremendously with Solidworks as I spent a lot of time trying to model everything to a T. Specifically, I improved at assembly, mating, and modeling more complex geometries. Moreover, I also learned 3D printing. Contrary to my initial belief, 3D printing is actually extremely tedious. This was learned through the countless failed printing attempts we had during the project.
             </p>
-            <a href="https://github.com/anthonyqiu/codebreaker" download class="hero-btn inverse-btn"><strong>see the source code</strong></a>
+            <a href="Toy_Design_Report_-_Launcho.pdf" download class="hero-btn inverse-btn"><strong>download our full report</strong></a>
         </section>
 
         <!-- footer -->
