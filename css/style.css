@@ -265,22 +265,24 @@ nav .fa-solid {
     transition: 1s;
 }
 
+.break-caliper-arm {
+    background-image: linear-gradient(rgba(4, 9, 30, 0.5), rgba(4, 9, 30, 0.5)), url(../img/break-caliper-arm/banner.png);
+}
+.impeller {
+    background-image: linear-gradient(rgba(4, 9, 30, 0.5), rgba(4, 9, 30, 0.5)), url(../img/impeller/banner.png);
+}
 .nerfv2 {
     background-image: linear-gradient(rgba(4, 9, 30, 0.5), rgba(4, 9, 30, 0.5)), url(../img/coming-soon.webp);
 }
-
 .launcho {
     background-image: linear-gradient(rgba(4, 9, 30, 0.5), rgba(4, 9, 30, 0.5)), url(../img/launcho/launcho-card.jpg);
 }
-
 .codebreaker {
     background-image: linear-gradient(rgba(4, 9, 30, 0.5), rgba(4, 9, 30, 0.5)), url(../img/codebreaker/codebreaker-card.jpg);
 }
-
 .saitama {
     background-image: linear-gradient(rgba(4, 9, 30, 0.5), rgba(4, 9, 30, 0.5)), url(../img/saitama/saitama-banner.webp);
 }
-
 .this-website {
     background-image: linear-gradient(rgba(4, 9, 30, 0.5), rgba(4, 9, 30, 0.5)), url(../img/this-website/this-website-card.jpeg);
 }
@@ -288,7 +290,6 @@ nav .fa-solid {
 .portfolio-item h3 {
     vertical-align: middle;
 }
-
 .portfolio-item:hover {
     box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.80);
     filter: brightness(90%);
@@ -372,6 +373,8 @@ nav .fa-solid {
     position: relative;
 }
 .sub-header-contact {background-image: linear-gradient(rgba(4, 9, 30, 0.85), rgba(4, 9, 30, 0.85)), url(../img/blueprint.jpeg);}
+.sub-header-break-caliper-arm {background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(../img/break-caliper-arm/banner.png);}
+.sub-header-impeller {background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(../img/impeller/banner.png);}
 .sub-header-nerfv2 {background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(../img/coming-soon.webp);}
 .sub-header-launcho {background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(../img/launcho/launcho-card.jpg);}
 .sub-header-codebreaker {background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(../img/codebreaker/codebreaker-banner.jpg);}
