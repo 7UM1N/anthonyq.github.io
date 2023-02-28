@@ -1,3 +1,0 @@
-A spring powered toy rocket launcher, created by a team of 5 people.
-
-Has the capability to adjust it’s launch angle in all dimensions.
