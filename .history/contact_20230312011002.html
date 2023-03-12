@@ -9,7 +9,7 @@
             gtag('js', new Date());
             gtag('config', 'G-XFJFSFPP7C');
         </script>
-        
+
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
         <title>Anthony Qiu</title>
@@ -23,7 +23,7 @@
     <body>
 
         <!-- header -->
-        <section class="sub-header sub-header-centrifugal-pump">
+        <section class="sub-header sub-header-contact">
             <nav>
                 <a class="logo" href="index.html">
                     <strong>ANTHONY</strong> QIU
@@ -39,9 +39,9 @@
                 <i class="fa-solid fa-bars" onclick="showMenu()"></i>
             </nav>
             <div class="text-box">
-                <h1>Centrifugal Pump</h1>
+                <h1>Contact</h1>
                 <p>
-                    centrifugal pump for robotic arm vacuum gripper
+                    reach out to me
                 </p>
             </div>
             <div class="scroll">
@@ -50,25 +50,15 @@
         </section>
 
         <!-- content -->
-        <section class="portfolio-item-section">
-            <img src="img/centrifugal-pump/centrifugal-pump-what.png">
-            <h2>What?</h2>
-            <p>
-                In this project I developed a centrifugal pump system (impeller and volute casing) that effectively generates suction for a robotic arm. The purpose of this arm is to transport objects via vacuum force.
-            </p>
-            
-            <img src="img/centrifugal-pump/centrifugal-pump-how.png">
-            <h2>How?</h2>
-            <p>
-                In the beginning, a lot of research was done to understand the underlying mechanisms working behind the pump. It was found that a smaller cross section for the inlet and a wider cross section for the outlet is the most ideal, as it can more effectively generate a low pressure zone near the inlet. This can be understood with Bernoulli’s principle which states that higher velocity = lower pressure. In the flow simulation above, it can be seen that the air near the inlet is flowing quickly (green), whereas the air near the outlet is flowing slowly (blue). This means that the pressure near the inlet is low while the pressure near the outlet is high (Bernoulli’s principle). Since fluids naturally flow from high pressure areas to low pressure areas, the air near the above the inlet will try to even out the pressure difference by entering the inlet (atmospheric pressure is higher than pressure near the inlet). This is the opposite for the air near the outlet (pressure in the outlet will flow to atmosphere since outlet is higher pressure) thus, causing a suction affect.
-                <br><br>After understanding the theory, numerous prototypes and models were created using Solidworks. Many of these prototypes were printed and tested to collect data and make further improvements. Flow simulations were also conducted to make improvements and ensure our centrifugal pump would work properly.
-            </p>
-            
-            <img src="img/centrifugal-pump/centrifugal-pump-results.png">
-            <h2>Results</h2>
-            <p>
-                After fabrication, the impeller can create suction with the use of only one Lego EV3 motor and carefully chosen gear ratios. The suction strength was also tested on a napkin weighing ~4g in which it succeeded.
-            </p>
+        <section class="contact">
+            <p>Fill out this form to shoot me a message*</p>
+            <form action="https://formsubmit.co/a13d27b601ceb44a68ed5d20407368d6" method="POST">
+                <input type="text" name="name" placeholder="Enter your name">
+                <input type="email" name="email" placeholder="Enter your email address">
+                <input type="text" name="subject" placeholder="Enter your subject">
+                <textarea rows="8" name="message" placeholder="Message"></textarea>
+                <button type="submit" class="hero-btn inverse-btn"><strong>Send Message</strong></button>
+            </form>
         </section>
 
         <!-- footer -->
