@@ -23,7 +23,7 @@
     <body>
 
         <!-- header -->
-        <section class="sub-header sub-header-launcho">
+        <section class="sub-header sub-header-saitama">
             <nav>
                 <a class="logo" href="index.html">
                     <strong>ANTHONY</strong> QIU
@@ -39,9 +39,9 @@
                 <i class="fa-solid fa-bars" onclick="showMenu()"></i>
             </nav>
             <div class="text-box">
-                <h1>Launcho</h1>
+                <h1>Saitama</h1>
                 <p>
-                    spring powered toy rocket
+                    a general purpose discord bot
                 </p>
             </div>
             <div class="scroll">
@@ -51,28 +51,30 @@
 
         <!-- content -->
         <section class="portfolio-item-section">
-            <img src="img/launcho/what.jpg">
+            <img src="img/saitama/saitama-what.png">
             <h2>What?</h2>
             <p>
-                Launcho is an innovative toy, created by a team of 5 people including me. It is a spring powered projectile launcher that can fire on command while being able to adjust its angle of fire in all 3 dimensions.
+                In short Saitama is a general-purpose discord bot. But what is a discord bot? It is server hosted application which is able to interact with a chat service called discord. Specifically, Saitama is able respond to certain messages keep track of interesting user statistics, execute commands such as ban, and once upon a time, Saitama was even able to play music. However, since it is now against Discord’s policy, this function no longer works.
             </p>
             
-            <img src="img/launcho/how.png">
+            <img src="img/saitama/saitama-how.png">
             <h2>How?</h2>
             <p>
-                To begin, a nerf mechanism was studied to gain an understanding of how a launching mechanism might work. After this research, an initial prototype was built to assess the feasibility of the design. This prototype was fabricated with PEX pip, Nerf gun parts, and duct tape.
-                <br><br>After obtaining a solid understanding of the mechanism, and validating design feasibility, a 3D model was created using Solidworks. In total this modeled contained 9 individual intricate components which was then assembled.
-                <br><br>Using this model as a reference, some components were 3D printed, and some were machined out of steel. 2 different manufacturing methods were utilized to achieve both the precision and durability required.
-                <br><br>The final product was then assembled (via force fits and super glue), and spray painted for aesthetic purposes.
-
+                Since discord API was only available for python and JavaScript, I could only choose between those 2 languages. In the end, I decided to use python because I already had some prior knowledge of the language, and it was easier to work with.	
+                <br><br>A virtual environment was created to store all necessary libraries for the project since I did not want to store them on my main machine. Some of these libraries include YouTube-dl for YouTube to mp3 capabilities, and obviously discord.py to connect to the discord servers.
+                <br><br>.json files were used to store important information that might need to be changed in the future. These files are useful because they are easily accessible and alterable with code or by hand.
+                <br><br>The overall structure of the project utilized several classes, each in charge of a different function. This way, the code did not get cluttered, and it was easy to navigate and read.
+                <br><br>To see the source code, check out my GitHub repository.
             </p>
             
-            <img src="img/launcho/results.jpg">
+            <img src="img/saitama/saitama-results.png">
             <h2>Results</h2>
             <p>
-                The result is a projectile launcher which can consistently launch to a height of 1.5 m (vertical). Although it may not seem like much, the mechanism relies on the power from only one nerf spring. Additionally, the wide base prevents any sort of tipping during use.
+                •	Programmed with python and several libraries for extra functionality.<br>
+                •	Json files were used to store user information.
+
             </p>
-            <a href="Toy_Design_Report_-_Launcho.pdf" download class="hero-btn inverse-btn"><strong>download our full report</strong></a>
+            <a href="https://github.com/anthonyqiu/saitama" download class="hero-btn inverse-btn"><strong>see the source code</strong></a>
         </section>
 
         <!-- footer -->

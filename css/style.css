@@ -265,11 +265,12 @@ nav .fa-solid {
     transition: 1s;
 }
 
+/* banner */
 .break-caliper-arm {
     background-image: linear-gradient(rgba(4, 9, 30, 0.5), rgba(4, 9, 30, 0.5)), url(../img/break-caliper-arm/banner.png);
 }
-.impeller {
-    background-image: linear-gradient(rgba(4, 9, 30, 0.5), rgba(4, 9, 30, 0.5)), url(../img/impeller/banner.png);
+.centrifugal-pump {
+    background-image: linear-gradient(rgba(4, 9, 30, 0.5), rgba(4, 9, 30, 0.5)), url(../img/centrifugal-pump/card.png);
 }
 .nerfv2 {
     background-image: linear-gradient(rgba(4, 9, 30, 0.5), rgba(4, 9, 30, 0.5)), url(../img/coming-soon.webp);
@@ -379,9 +380,10 @@ nav .fa-solid {
     position: relative;
 }
 
+/* card */
 .sub-header-contact {background-image: linear-gradient(rgba(4, 9, 30, 0.85), rgba(4, 9, 30, 0.85)), url(../img/blueprint.jpeg);}
 .sub-header-break-caliper-arm {background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(../img/break-caliper-arm/banner.png);}
-.sub-header-impeller {background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(../img/impeller/banner.png);}
+.sub-header-centrifugal-pump {background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(../img/centrifugal-pump/banner.png);}
 .sub-header-nerfv2 {background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(../img/coming-soon.webp);}
 .sub-header-gravity-car {background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(../img/gravity-car/banner.jpg);}
 .sub-header-launcho {background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(../img/launcho/launcho-card.jpg);}

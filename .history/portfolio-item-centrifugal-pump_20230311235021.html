@@ -23,7 +23,7 @@
     <body>
 
         <!-- header -->
-        <section class="sub-header sub-header-launcho">
+        <section class="sub-header sub-header-centrifugal-pump">
             <nav>
                 <a class="logo" href="index.html">
                     <strong>ANTHONY</strong> QIU
@@ -39,9 +39,9 @@
                 <i class="fa-solid fa-bars" onclick="showMenu()"></i>
             </nav>
             <div class="text-box">
-                <h1>Launcho</h1>
+                <h1>Centrifugal Pump</h1>
                 <p>
-                    spring powered toy rocket
+                    centrifugal pump for robotic arm vacuum gripper
                 </p>
             </div>
             <div class="scroll">
@@ -51,28 +51,24 @@
 
         <!-- content -->
         <section class="portfolio-item-section">
-            <img src="img/launcho/what.jpg">
+            <img src="img/centrifugal-pump/centrifugal-pump-what.png">
             <h2>What?</h2>
             <p>
-                Launcho is an innovative toy, created by a team of 5 people including me. It is a spring powered projectile launcher that can fire on command while being able to adjust its angle of fire in all 3 dimensions.
+                In this project I developed a centrifugal pump system (impeller and volute casing) that effectively generates suction for a robotic arm. The purpose of this arm is to transport objects via vacuum force.
             </p>
             
-            <img src="img/launcho/how.png">
+            <img src="img/centrifugal-pump/centrifugal-pump-how.png">
             <h2>How?</h2>
             <p>
-                To begin, a nerf mechanism was studied to gain an understanding of how a launching mechanism might work. After this research, an initial prototype was built to assess the feasibility of the design. This prototype was fabricated with PEX pip, Nerf gun parts, and duct tape.
-                <br><br>After obtaining a solid understanding of the mechanism, and validating design feasibility, a 3D model was created using Solidworks. In total this modeled contained 9 individual intricate components which was then assembled.
-                <br><br>Using this model as a reference, some components were 3D printed, and some were machined out of steel. 2 different manufacturing methods were utilized to achieve both the precision and durability required.
-                <br><br>The final product was then assembled (via force fits and super glue), and spray painted for aesthetic purposes.
-
+                In the beginning, a lot of research was done to understand the underlying mechanisms working behind the pump. It was found that a smaller cross section for the inlet and a wider cross section for the outlet is the most ideal, as it can more effectively generate a low pressure zone near the inlet. This can be understood with Bernoulli’s principle which states that higher velocity = lower pressure. In the flow simulation above, it can be seen that the air near the inlet is flowing quickly (green), whereas the air near the outlet is flowing slowly (blue). This means that the pressure near the inlet is low while the pressure near the outlet is high (Bernoulli’s principle). Since fluids naturally flow from high pressure areas to low pressure areas, the air near the above the inlet will try to even out the pressure by entering the inlet (atmospheric pressure is higher than pressure near the inlet). This is the opposite for the air near the outlet (pressure in the outlet will flow to atmosphere since outlet is higher pressure) thus, causing a suction affect.
+                <br><br>After understanding the theory, numerous prototypes and models were created using Solidworks. Many of these prototypes were printed and tested to collect data and make further improvements. Flow simulations were also conducted to make improvements and ensure our centrifugal pump would work properly.
             </p>
             
-            <img src="img/launcho/results.jpg">
+            <img src="img/centrifugal-pump/centrifugal-pump-results.png">
             <h2>Results</h2>
             <p>
-                The result is a projectile launcher which can consistently launch to a height of 1.5 m (vertical). Although it may not seem like much, the mechanism relies on the power from only one nerf spring. Additionally, the wide base prevents any sort of tipping during use.
+                After fabrication, the impeller can create suction with the use of only one Lego EV3 motor and carefully chosen gear ratios. The suction strength was also tested on a napkin weighing ~4g in which it succeeded.
             </p>
-            <a href="Toy_Design_Report_-_Launcho.pdf" download class="hero-btn inverse-btn"><strong>download our full report</strong></a>
         </section>
 
         <!-- footer -->
