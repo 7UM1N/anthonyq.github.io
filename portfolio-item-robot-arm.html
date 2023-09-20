@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Google tag (gtag.js) -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-XFJFSFPP7C"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+      gtag("config", "G-XFJFSFPP7C");
+    </script>
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Anthony Qiu</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+      integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- header -->
+    <section class="sub-header sub-header-robot-arm">
+      <nav>
+        <a class="logo" href="index.html"> <strong>ANTHONY</strong> QIU </a>
+        <div class="nav-links" id="navLinks">
+          <ul>
+            <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="index.html#projects">PROJECTS</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+          </ul>
+        </div>
+        <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+      </nav>
+      <div class="text-box">
+        <h1>Modular 4 DoF 3D Printed Robotic Arm</h1>
+        <p>A Journey into Innovation and Modularity</p>
+      </div>
+      <div class="scroll">
+        <p>S C R O L L<br /><i class="fa-solid fa-sort-down"></i></p>
+      </div>
+    </section>
+
+    <!-- content -->
+    <section class="portfolio-item-section">
+      <img src="img/robot-arm/2.png" />
+      <p>
+        In the ever-evolving world of robotics, innovation often springs from
+        the minds of passionate individuals. This is the story of a solo journey
+        into a captivating project—a Modular 4-DOF (Degrees of Freedom) 3D
+        Printed Robotic Arm. As the sole member of the team, this endeavor
+        became a testament to innovation, determination, and the power of modern
+        manufacturing techniques.
+      </p>
+      <h2>A Solo Quest for Versatility and Affordability</h2>
+      <p>
+        <b>A Singular Objective:</b> My primary goal was straightforward—to
+        create a modular robotic arm that would provide a versatile,
+        cost-effective, and adaptable solution for various industries and
+        applications. The vision was to ensure reliability, efficiency, and
+        sustainability in every aspect. The crowning achievement would be the
+        arm's modularity, allowing for the attachment of any tool for enhanced
+        versatility.
+      </p>
+      <h2>From Concept to Creation</h2>
+      <p>
+        This ambitious project required a one-person orchestra, combining
+        mechanical ingenuity with cutting-edge technology:
+        <br /><br />
+        <b>Design for Manufacturability (DFM):</b> Every component had to be
+        meticulously designed to be 3D printed with ease. I paid particular
+        attention to minimizing the need for supports, especially in critical
+        areas like precision holes, to ensure efficient manufacturing.<br /><br />
+        <b>Design for Assembly (DFA):</b> Simplifying the assembly process was
+        crucial. With only screws, nuts, and force fits, the entire arm could be
+        assembled, eliminating the need for specialized assembly equipment.
+      </p>
+      <h2>Section 1: Planetary Gear Drive - Crafting Precision and Power</h2>
+      <img src="img/robot-arm/3.png" />
+      <p>
+        I delved into the world of involute gear design principles, applying
+        this knowledge to parametrically model external and internal gears. This
+        innovation amplified the base plate torque and precision by 4X.<br /><br />
+        I chose herringbone ("V-shaped") gears for the planetary gearbox due to
+        their silent, smooth, and efficient operation.
+        <br /><br />
+        The central location of the sun gear in the planetary drive allowed for
+        an improved wire management system, streamlining wire routing.
+      </p>
+      <h2>Section 2: Cycloidal Gear Drive - A Compact Powerhouse</h2>
+      <img src="img/robot-arm/4.png" />
+      <p>
+        I developed a compact, fully 3D printable cycloidal drive to increase
+        the torque of the first vertical joint by a factor of 13.<br /><br />
+        Countless iterations were made, adjusting parameters such as
+        eccentricity and roller radius to develop a reliable, smooth, and
+        efficient drive. <br /><br />
+        I strategically selected the cycloidal drive over other types for its
+        higher accuracy, load capacity, transmission efficiency, and
+        compactness.
+      </p>
+      <h2>
+        Section 3: Bevel Gear Differential Joint - Efficiency through Design
+      </h2>
+      <img src="img/robot-arm/5.png" />
+      <p>
+        I applied my knowledge of spur gears to design a parametric bevel gear
+        set, approximating the tooth profile of the bevel gears using Tredgold’s
+        approximation.
+      </p>
+      <h2>Section 4: Belt Drives - Transmitting Torque Across Distances</h2>
+      <img src="img/robot-arm/6.png" />
+      <p>
+        I converted linear dimensions from a GT2 timing belt into radial
+        dimensions and applied them to model a parametric GT2 timing belt
+        gear.<br /><br />
+        Parametric models created two sets of GT2 timing belt gears for torque
+        transmission between distant parallel shafts.
+      </p>
+      <h2>
+        Section 5: 3D Printable Cross Roller Bearings - Precision without the
+        Price Tag
+      </h2>
+      <img src="img/robot-arm/7.png" />
+      <p>
+        I designed a parametric cross roller bearing model in SolidWorks, saving
+        over $1000 by eliminating the need to purchase large-sized
+        industrial-grade cross roller bearings.<br /><br />
+        The choice of a cross roller bearing was deliberate, as it excels in
+        handling both axial and radial loads.
+      </p>
+      <h2>Section 6: Structural Components - Efficiency in Printing</h2>
+      <img src="img/robot-arm/8.png" />
+      <p>
+        To reduce print time and filament cost, I removed the need for supports
+        on small horizontal holes by adding a 40-degree tip, ensuring they
+        remained above the minimum printable angle threshold of 30 degrees.<br /><br />
+        I conducted trials to determine the average shrinkage rate of various 3D
+        printing filaments, leading to adjustments in critical dimensions for
+        improved part accuracy. <br /><br />
+        I employed "tree supports" to minimize filament consumption and enhance
+        surface finish.
+      </p>
+      <h2>Section 7: Electronics - The Nervous System</h2>
+      <img src="img/robot-arm/9.png" />
+      <p>
+        I implemented an Arduino microcontroller and ULN2003 driver to control a
+        28BYJ-48 stepper motor, enabling testing of individual joints within the
+        robot arm.<br /><br />
+        I am currently in the process of creating an electrical system to
+        operate a 28BYJ-48 stepper motor until a limit switch has been pressed,
+        allowing for precise calibration of the robot arm. <br /><br />
+      </p>
+      <i>
+        Curious to learn more about my journey or explore how these innovations
+        can shape the future? Don't hesitate to get in touch.
+      </i>
+    </section>
+
+    <!-- footer -->
+    <footer class="footer">
+      <a href="mailto:anthony.bo.qiu@gmail.com" class="email"
+        >anthony.bo.qiu@gmail.com</a
+      >
+      <ul class="socials">
+        <li class="socials-item">
+          <a class="social-item-link" href="https://www.linkedin.com/in/abqiu">
+            <i class="fa-brands fa-linkedin"></i>
+          </a>
+        </li>
+        <li class="socials-item">
+          <a class="social-item-link" href="https://github.com/anthonyqiu">
+            <i class="fa-brands fa-github"></i>
+          </a>
+        </li>
+      </ul>
+      <p class="love">
+        made with <i class="fa-regular fa-heart"></i> by Anthony
+      </p>
+    </footer>
+
+    <!-- javascript-->
+    <script src="js/index.js"></script>
+  </body>
+</html>

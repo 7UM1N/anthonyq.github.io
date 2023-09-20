@@ -242,10 +242,10 @@ nav .fa-solid {
     color: var(--clr-light);
     width: 150px;
     height: 150px;
-    border-style: solid;
+    /*border-style: solid;
     border-width: 0.3rem;
     border-color: var(--clr-light);
-    border-radius: 50%;
+    border-radius: 50%;*/
 
     position: relative;
     display: flex;
@@ -265,7 +265,10 @@ nav .fa-solid {
     transition: 1s;
 }
 
-/* banner */
+/* card */
+.robot-arm {
+    background-image: linear-gradient(rgba(4, 9, 30, 0.5), rgba(4, 9, 30, 0.5)), url(../img/robot-arm/card.png);
+}
 .break-caliper-arm {
     background-image: linear-gradient(rgba(4, 9, 30, 0.5), rgba(4, 9, 30, 0.5)), url(../img/break-caliper-arm/card.png);
 }
@@ -385,6 +388,7 @@ nav .fa-solid {
 
 /* card */
 .sub-header-contact {background-image: linear-gradient(rgba(4, 9, 30, 0.85), rgba(4, 9, 30, 0.85)), url(../img/blueprint.jpeg);}
+.sub-header-robot-arm {background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(../img/robot-arm/banner.jpg);}
 .sub-header-PSI {background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(../img/PSI/banner.png);}
 .sub-header-break-caliper-arm {background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(../img/break-caliper-arm/banner.png);}
 .sub-header-centrifugal-pump {background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(../img/centrifugal-pump/banner.png);}
@@ -400,8 +404,8 @@ nav .fa-solid {
     border-style: solid;
     border-width: 0.25rem;
     border-color: var(--clr-light);
-    padding-left: 100px;
-    padding-right: 100px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 .portfolio-item-section {
